@@ -6,5 +6,5 @@ Projeto de banco de dados para disciplina TAP
 
 ```
  docker build -t store_bd .
- docker run -d -p 3000:3000 stock_bd
+ docker run -d -p 5432:5432 stock_bd
 ```
